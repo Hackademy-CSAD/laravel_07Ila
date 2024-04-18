@@ -6,7 +6,7 @@
 
 
 
-    <form method="POST" action="{{ route('animals.store') }}"">
+    <form method="POST" action="{{ route('animals.store') }}" enctype="multiplepart/form-data">
 
         @csfr
         <div class="mb-">
